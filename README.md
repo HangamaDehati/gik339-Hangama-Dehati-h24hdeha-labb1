@@ -1,2 +1,2 @@
-# gik339-Hangama-Dehati-h24hdeha-labb1
+# gik339-h24hdeha-labb1
 JAVASCRIPT INTRO, VARIABLER OCH FUNKIONER
