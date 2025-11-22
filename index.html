@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> GIK339-Labb 1 </h1>
+    <h2>JavaScript intro, variabler och funkioner</h2>
+
+    <!-- KÄLLOR:
+    - Föreläsning 1: JavaScript grunder (Mikaela Hedberg)
+    - GIK339 – Kodexempel Föreläsning 1 (Mikaela Hedberg)
+    - W3Schools JavaScript Functions: https://www.w3schools.com/js/js_functions.asp
+    - Bro Code (YouTube): https://www.youtube.com/@BroCodez
+    -->
+
+
+    <!-- uppgift 1:
+
+1) Vad spelar placeringen av <script> taggen för roll?
+Placeringen avgör när JavaScript körs. Webbläsaren läser HTML uppifrån och ner. Om man
+lägger <script> i <head> utan defer körs koden direkt innan HTML hunnit laddas klart vilket
+kan ge fel. Lägger man <script> längst ned i <body> körs JavaScript först när allt HTML är
+laddat vilket är tryggare. Med andra ord påverkar placeringen om scriptet körs för tidigt
+eller vid rätt tidpunkt.
+
+2) Hur fungerar attributet defer?
+Defer gör att scriptet kan ligga i <head> men ändå vänta med att köras tills hela HTML-sidan
+är färdigladdad. Webbläsaren laddar scriptet i bakgrunden utan att stoppa sidan och kör det
+först när dokumentet är klart. Det fungerar alltså nästan som att lägga scriptet längst ned i
+<body> men ger en snyggare struktur i koden.
+-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
